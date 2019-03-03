@@ -75,7 +75,7 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   supplies = []
   holiday_hash.each do |season,holiday|
-    if holiday.each{ |supply| supply.include?('BBQ')
+    if holiday.each{ |supply| supply.include?('BBQ')}
       supplies << holiday
     end
   end
